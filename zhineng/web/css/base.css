@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, ul, li, ol, p, h1, h2, h3, h4, h5, h6, form,input,img { margin:0; padding:0;}
+li{ list-style:none;}
+h1,h2,h3,h4,h5,h6{
+font-size: 100%;
+font-weight: normal;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+a{text-decoration:none; display:block;}  
+body{ font-size:14px;}
+.wrap{ width:1300px; margin:0 auto;}
+.clearfix{ room:1;}
+.fl{float: left;}
+.fr{float: right;}
+.db{display: block;}
+/*CSS初始化结束*/
+
+
+/*顶部开始*/
+
+.top{
+	height:10px;
+	background:rgba(255,192,0,0.5);
+	}
+/*顶部结束*/
+
+/*头部开始*/
+header{height:55px;}
+header h1 {
+    width: 191px;
+	height: 50px;
+	margin-top: 5px;
+    float: left;
+	background:url(../img/title.PNG) no-repeat;
+    text-indent: -9999px;
+}
+
+header ul{
+	height:50px;
+	float:right;
+	padding-top:10px;}
+header li{
+	float:left;  /*块显示加浮动收缩到内容大小*/
+	font-family: "宋体";
+	font-size:25px;
+	}
+header li a{
+	width:120px;
+	height:40px;
+	margin-left:50px;
+	display:block;
+	text-align:center;
+	line-height:40px;
+	color:#34679c;}
+header li a:hover{
+	color:#FFF;
+	background-color:#34679c;
+	border-radius:20px;
+	}
+/*导航栏样式结束*/
+/*头部结束*/
+
+/*联系我们开始*/
+.contact{
+	
+	height:40px;
+	color:#34679c;
+	text-align:center;
+	margin-top:15px;
+	font-size:18px;
+	}
+.contact a{
+	color:#34679c;
+	display: inline-block;
+	}
+.contact a:hover{
+	color:#ffc000;
+	}
+/*联系我们结束*/

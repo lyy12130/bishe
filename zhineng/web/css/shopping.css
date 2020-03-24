@@ -1,0 +1,266 @@
+@charset "utf-8";
+/* CSS Document */
+body{	background:rgba(251,237,228,0.3);}
+.bg{
+	margin-top:5px;
+	width:1300px;
+	height:384px;
+	background-image:url(../img/shopping/bgt.jpg);
+	}
+/*搜索样式开始*/
+.search{
+	margin-top:5px;
+	}
+.search form{
+	width:800px;
+	height:40px;
+	background:#FFF;
+	border: #F93 solid 2px;
+	margin:0 auto;
+	border-radius:29px;
+	}
+.search form input{
+	width:620px;
+	height:30px;
+	float:left;
+	margin:7px 0 0 20px;
+	border:0;
+	outline:none;
+	}
+.search form button{
+	width:135px;
+	height:32px;
+	border-radius:18px;
+	background-color:#F93;
+	color:#fff;
+	font-size:16px;
+	margin:4px 7px 0 0;
+	border:none;
+	}
+
+.focus{
+	margin-top: 10px;
+	width: 1300px;
+	height: 412px;
+	position: relative;
+	overflow: hidden;
+}
+
+.focus ul{
+	position: absolute;
+	width: 400%;
+}
+
+.focus ul li {
+	float: left;
+}
+
+.arrow_l,
+.arrow_r{
+	display: none;
+	position: absolute;
+	top: 50%;
+	margin-top: -20px;
+	width: 24px;
+	height: 40px;
+	background: rgba(0,0,0,0.3);
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	font-family: 'icomoon';
+	font-size: 18px;
+	/*ul和a都有定位，发生层叠*/
+	z-index:2;
+}
+.arrow_r{right: 0;}
+.circle {
+    position: absolute;
+    bottom: 10px;
+	left: 50px;
+	margin-left: 510px;
+}
+
+.circle li {
+	float: left;
+    width: 8px;
+    height: 8px;
+    /*background-color: #fff;*/
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    margin: 0 3px;
+    border-radius: 50%;
+    /*鼠标经过显示小手*/
+    cursor: pointer;
+}
+
+.current {
+    background-color:#FFF;
+}
+
+
+.sort{
+	margin-top:15px;
+	height:130px;}
+
+.sort nav{ padding-left:80px;}
+
+.sort li{
+	width:100px;
+	height:130px;
+	float:left;
+	margin-left:150px;
+	}
+.sort li a{
+	display:block;
+	}
+.nav{
+	margin-left:65px;}
+.nav a img{
+    transition: all 1s ease;  /*1s的缓慢过渡*/
+    -webkit-transition: all 1s ease;    /*针对谷歌设置的缓慢过渡*/
+	}
+.nav a:hover img {
+    transform: scale(1.1, 1.1);     /*放大*/  
+    -webkit-transform: scale(1.1, 1.1);
+}
+
+.sort li div{
+	width: 100px;
+	height: 130px;
+	text-align: center;
+	font-size: 16px;
+	display:none;
+}
+
+.goodsOne{
+	margin-top:20px;
+	width:1300px;
+	height:400px;
+	background-image:url(../img/shopping/009.jpg);}
+
+.goodsOneInfo{
+	float:left;
+	margin-left:172px;
+	width:250px;
+	height:400px;
+	background:rgba(251,237,228,0.5);
+	}
+
+.goodsOnePec{
+	float:right;
+	margin-right:172px;
+	width:706px;
+	height:400px;
+	background: url(../img/shopping/003.JPG);
+	}
+	
+.goodsTwo{
+	margin-top:20px;
+	height:400px;
+	width:1300px;
+	background-image:url(../img/shopping/019.jpg);}
+
+.goodsTwoInfo{
+	float:right;
+	margin-right:172px;
+	height:400px;
+	width:250px;
+	height:400px;
+	background:rgba(251,237,228); 
+	}
+
+.goodsTwoPec{
+	float:left;
+	margin-left:172px;
+	width:706px;
+	height:400px;
+	background:url(../img/shopping/001.JPG);
+	}
+	
+.goodsBotm{
+	height:260px;
+	width:1340px;
+	margin-top:20px;}
+.goodsBotm li{
+	display:inline-block;
+	width:300px;
+	height:200px;
+	margin-right:30px;
+	background-color:#039;
+}
+
+
+.gotop {
+    position: fixed;
+    right: 20px;
+    top: 400px;
+    z-index: 20;
+}
+
+.gotop a {
+    display: block;
+    width: 48px;
+    height: 48px;
+    line-height:38px;
+    background: #f4f4f4;
+    margin-bottom: 10px;
+    border: 1px solid #d6d6d6;
+    cursor: pointer;
+}
+
+.gotop dl dt {
+    margin: 0 auto;
+    width: 20px;
+    padding-top: 10px;
+}
+
+.gotop dl.goCart {
+    position: relative;
+}
+
+.gotop dl.goCart span {
+    position: absolute;
+    top: -9px;
+    right: -8px;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    background: #c10000;
+    color: #fff;
+    text-align: center;
+    line-height: 16px;
+}
+
+.gotop dl dd {
+    display: none;
+    background: #a10000;
+    height: 41px;
+    width: 41px;
+    color: #fff;
+    padding: 8px 0 0 10px;
+    line-height: 15px;
+}
+
+.gotop p {
+    border: 1px solid #A10000;
+    padding: 10px;
+    position: absolute;
+    background: #f4f4f4;
+    top: 66px;
+    left: -130px;
+    display: none;
+}
+
+.gotop p:before {
+    position: absolute;
+    top: 50%;
+    right: -6px;
+    width: 0;
+    margin-top: -5px;
+    height: 0;
+    margin-left: -5px;
+    vertical-align: middle;
+    content: " ";
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #a10000;
+    border-top: 5px solid transparent;
+}

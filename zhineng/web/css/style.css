@@ -1,0 +1,200 @@
+@charset "utf-8";
+/* CSS Document */
+.big{
+	height:780px;
+	margin-top:5px;
+	border-top:2px solid #ffc000;}
+/*main样式开始*/
+main{
+	margin-top:15px;
+	width:500px;
+	float:left;
+	}
+/*main样式结束*/
+
+/*图文列表样式开始*/
+.news li{ overflow:hidden; margin-bottom:25px;}
+.news li img{
+	margin-right:20px;
+	float:left;}
+.news li h2{ font-size:18px; 
+	color:#000; 
+	font-weight:bold;
+	margin-bottom:10px;
+	}
+.news li p{ font-size:14px; 
+	color:#34679c;
+	line-height:25px;}
+
+/*图文列表样式结束*/
+
+/*aside样式开始*/
+aside{
+	width:750px;
+	float:right;
+	}
+
+/*-------头条开始*/
+.toutiao h2{
+	margin-top:10px;
+	font-size:24px;
+	font-weight:700;
+	text-align:center;
+	}
+.toutiao h2 a{color:#34679c;}
+/*-------头条结束*/
+
+/*-------简要内容开始*/
+.summary{
+	font-size:14px;
+	line-height:22px;
+	color:#999;
+	padding:10px 0;
+	text-indent:29px;
+	border-bottom:1px dotted #ffc000;}、
+/*-------简要任容结束*/
+
+/*-------作者开始*/
+.author{ color:#999;}
+.author a{color:#999;
+		display:inline-block;
+		width:200px;}
+/*-------作者结束*/
+
+/*-------副头条开始*/
+.toutiao2{
+	margin-top:10px;
+	overflow:hidden;}
+.toutiao2 ul{ width:120%;}
+.toutiao2 li{ 
+	width:50%;
+	height:28px;
+	line-height:28px;
+	font-size:14px;
+    float:left;
+	}
+/*-------副头条结束*/
+
+/*-------导航开始*/
+.tab{ height: 500px;}
+.inform{
+	float:right;
+	margin-top:10px;
+	width:753px;
+	height:40px;
+	background:#ffc000;
+	color:#34679c;
+	overflow:hidden;
+	}
+
+.inform ul{
+
+	border-top:#34679c 3px solid;}
+
+.inform li current{ background:#34679c;}
+
+.inform li{ 
+	height:38px;
+	color:#fff;
+	padding:0 46px;
+	line-height:38px;
+	float:left;
+	font-size:16px;}
+
+
+/*-------导航结束*/
+
+/*文章盒子开始*/
+.bbsbox{ margin-top:5px;}
+
+.hotList{
+	float:left;
+	margin:0;
+	padding:3px 5px;
+	width:750px;
+	border-bottom:1px solid #ffc000;
+	overflow:hidden;}
+.bbsbox h2{
+	font-size:18px;
+	line-height:180%;
+	font-weight:700;}
+	
+.bbsbox h2 a{
+	color:#34679c;
+	overflow:hidden;
+	white-space:nowrap;}
+.bbsbox .summary {
+    color:s#34679c;
+    font-size: 14px;
+    line-height: 180%;
+    padding: 0 0 5px 5px;
+}
+.bbsbox .info {
+    margin: 4px 0 0 5px;
+    height: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #ccc;
+}
+.bbsbox .info .author {
+    height: 20px;
+    line-height: 20px;
+    background: url(../img/author.png) no-repeat left center;
+    background-size: 12px 12px;
+    padding-left: 16px;
+    padding-right: 6px;
+    float: left;
+    display: block;
+}
+.bbsbox .info a, .bbsbox .info a:link, .bbsbox .info a:visited {
+    color: #888;
+}
+
+
+/*文章盒子结束*/
+/*搜索样式开始*/
+.search{
+	margin-top:10px;
+	}
+.search form{
+	width:700px;
+	height:40px;
+	background:#FFF;
+	border: #F93 solid 2px;
+	margin:0 auto;
+	border-radius:29px;
+	}
+.search form input{
+	width:520px;
+	height:30px;
+	float:left;
+	margin:7px 0 0 20px;
+	border:0;
+	outline:none;
+	}
+.search form button{
+	width:135px;
+	height:32px;
+	border-radius:18px;
+	background-color:#F93;
+	color:#fff;
+	font-size:16px;
+	margin:4px 7px 0 0;
+	border:none;
+	}
+/*aside样式结束*/
+
+/*开始*/
+.current {
+	background-color: #34679c;	
+}
+/*结束*/
+
+/*开始*/
+.hotList{
+	display: none;
+}
+/*结束*/
+
+/*开始*/
+/*结束*/

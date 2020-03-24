@@ -1,0 +1,177 @@
+@charset "utf-8";
+/* CSS Document */
+body{ background:rgba(246,246,246);}
+
+.product{
+	margin-top:20px;
+	height: 490px;
+	}
+
+.proImg	{
+	display: block;
+}
+.kuang {
+	width: 700px;
+	height:350px;
+}
+
+.smallImg{
+	margin-top: 10px;
+}
+
+.smallImg img{
+	width: 100px;
+	height: 53px;
+	margin-right: 5px;
+}
+
+.smallImg li{
+	display:inline-block;
+}
+
+.intor{
+	width: 500px;
+	padding-top:10px;
+	padding-right: 50px;
+}
+
+.intor h3{
+	font-size:24px;
+}
+
+.title p{
+	margin: 10px 0;
+	font-size: 14px;;
+	color: #777;
+}
+
+.title span{
+	font-size: 22px;
+	color: #c10000;
+}
+
+.proIntro {
+	width: 500px;
+	height: 175px;
+    padding: 20px 10px;
+    margin: 15px 0;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.proIntro p {
+    height: 30px;
+    line-height: 30px;
+}
+
+.proIntro p span{
+	color: #c10000;
+}
+.storImg{
+	height: 60px;
+	margin:10px 0 15px ;
+	position: relative;
+}
+
+.storImg li{display:inline-block;}
+
+.storImg img{
+	width: 60px;
+	height: 60px;	
+} 
+
+.num{
+	margin-top: 10px;
+}
+
+.num img {
+    width: 27px;
+    height: 27px;
+    cursor: pointer;
+}
+
+.num span {
+    width: 27px;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+}
+
+.num p.please {
+    margin-left: 20px;
+    color: #C10000;
+    line-height: 27px;
+    display: none;
+}
+
+.btns p.buy, .changeBtn p.buy {
+    background: #C10000;
+    color: #fff;
+}
+.btns p.cart, .changeBtn p.cart {
+    border: 1px solid #000;
+}
+.btns a{color: #262626;}
+.btns p, .changeBtn p {
+    width: 170px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.msgTit {
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.msgTit li{
+	display: inline-block;
+	margin-right:20px;
+}
+.current {
+    border-bottom: 1px solid #c10000;
+}
+
+.msgImgs img{
+	width: 1300px;
+}
+
+.per {
+    border-bottom: 1px dashed #dbdbdb;
+    margin-bottom: 10px;
+}
+.perR {
+    margin-left: 15px;
+    width: 852px;
+}
+
+.perR p {
+    line-height: 30px;
+}
+
+.perR div{
+	width: 1300px;
+	height: 46px;
+}
+
+.perR div p {
+    float: left;
+    margin-right: 20px;
+    padding: 2px;
+    border: 1px solid #f0f0f0;
+}
+
+.perR div p img {
+	display: block;
+	width: 40px;
+	height: 40px;
+}
+.perR p span {
+    color: #b0b0b0;
+    margin-right: 10px;
+}

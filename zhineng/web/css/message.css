@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+.biaoti{
+	margin-top:25px;
+	height:35px;
+
+	}
+	
+.biaoti h3{
+	margin-top:5px;
+	font-size:24px;
+	text-align:center;
+	}
+	
+.author{
+	margin-top:5px;
+	width:300px;
+	margin-left:450px;
+	height:25px;
+	}
+
+.author a{
+	display:inline-block;
+	width:100px;
+	color:black;
+	margin-left:2px;
+	}
+	
+.text{
+	border-top:orange dotted 1px;
+	padding-top:5px;
+	margin-top:10px;
+	width:1000px;
+	font-size:20px;
+	margin-left:150px;
+	height:200px;
+	}	

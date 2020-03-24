@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*banner开始*/
+.alink{
+	position:relative;
+	}
+.banner{
+	height:475px;
+	position:absolute;
+	background:url(../img/index/banner.gif) no-repeat center;
+	margin-top:5px;
+	}
+.banner a{
+	height:150px;
+	display:block;
+	float:left;
+	margin-top:400px;
+	}
+.banner li:first-child{margin-left:30px;}
+.banner li:nth-child(2){margin-left:575px;}
+.banner li:last-child{margin-left:1120px;}
+/*banner结束*/
+
+
+/*warp开始*/
+.warp{
+	height:40px;
+	padding-top:560px;
+	}
+.warp li{
+	float:left;  /*块显示加浮动收缩到内容大小*/
+	font-family: "宋体";
+	font-size:25px;
+	}
+.warp li a{color:#34679c;
+	width:80px;
+	text-align:center;}
+.warp li a:hover{
+	width:80px;
+	text-align:center;
+	color:#FFF;
+	background-color:#34679c;
+	border-radius:20px;}
+.warp li:first-child{margin-left:60px;}
+.warp li:nth-child(2){margin-left:470px;}
+.warp li:last-child{margin-left:465px;}
+
+
+.warp1{
+	height:100px;
+	}
+.warp1 li{
+	float:left;  /*块显示加浮动收缩到内容大小*/
+	font-family: "宋体";
+	font-size:16px;
+	}
+.warp1 li:first-child{margin-left:40px;}
+.warp1 li:nth-child(2){margin-left:430px;}
+.warp1 li:last-child{margin-left:425px;}
+
+.warp1 li a{
+	width:120px;
+	display:block;
+	text-align:center;
+	line-height:20px;
+	color:#34679c;}
+
+.warp1 li button{
+	margin-top:10px;
+	margin-left:30px;
+	background-color:#34679c;
+	border-radius:20px;
+	color:#FFF;
+	border:none;
+	}
+/*warp结束*/
+
+/*item开始*/
+.item{
+	height:200px;
+	background-image:url(../img/index/item.gif);
+	}
+
+/*item结束*/
+
+
+/*开始*/
+/*结束*/
+/*开始*/
+/*结束*/
+/*开始*/
+/*结束*/
